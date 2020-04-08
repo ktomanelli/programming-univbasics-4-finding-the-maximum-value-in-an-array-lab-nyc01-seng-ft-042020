@@ -5,5 +5,5 @@ def find_max_value(array)
       max = arr[i]
     end
   end
-  max
+  array.index(max)
 end
